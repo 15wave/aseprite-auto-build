@@ -1,6 +1,7 @@
 name: Auto build Aseprite
 
 on:
+  workflow_dispatch:
   push:
     branches: ["main"]
 
